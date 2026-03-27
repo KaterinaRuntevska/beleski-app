@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Управување со белешки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Мои Белешки 📝</h1>
+        <div class="main-content">
+            <div class="notes-list" id="notesList"></div>
+            <div class="note-editor">
+                <input type="text" id="noteTitle" placeholder="Наслов на белешка">
+                <textarea id="noteContent" placeholder="Содржина..." rows="10"></textarea>
+                <div class="buttons">
+                    <button onclick="dodajNovaBeleska()">Нова белешка</button>
+                    <button onclick="zacuvajIzmeni()" style="background-color: #28a745;">Зачувај измени</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
