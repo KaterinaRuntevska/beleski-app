@@ -10,12 +10,15 @@
         <h1>Мои Белешки 📝</h1>
         <div class="main-content">
             <div class="notes-list" id="notesList"></div>
+
             <div class="note-editor">
                 <input type="text" id="noteTitle" placeholder="Наслов на белешка">
-                <textarea id="noteContent" placeholder="Содржина..." rows="10"></textarea>
+                <textarea id="noteContent" placeholder="Напиши ја содржината тука..." rows="10"></textarea>
+                
                 <div class="buttons">
                     <button onclick="dodajNovaBeleska()">Нова белешка</button>
                     <button onclick="zacuvajIzmeni()" style="background-color: #28a745;">Зачувај измени</button>
+                    <button onclick="izbrishiBeleska()" style="background-color: #dc3545;">Избриши</button>
                 </div>
             </div>
         </div>
